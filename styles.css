@@ -1,0 +1,72 @@
+/* Set margin and padding for the head element */
+head {
+  margin-left: 40px; /* Add left margin */
+  margin-right: 40px; /* Add right margin */
+  padding: 100px; /* Add padding */
+}
+
+/* Define font family and background color for the body element */
+body {
+  font-family: Arial, sans-serif; /* Set font family */
+  background-color: #f6f6f6; /* Set background color */
+  margin-left: 40px; /* Add left margin to the entire page */
+  margin-right: 40px; /* Add right margin to the entire page */
+}
+
+/* Style the container within the root element */
+#root .container {
+  display: block; /* Set display property to block */
+  margin-top: 20px; /* Add top margin */
+  padding: 20px; /* Add padding */
+  background-color: #ffffff; /* Set background color */
+  border-radius: 5px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  margin-left: 40px; /* Add left margin to the entire page */
+  margin-right: 40px; /* Add right margin to the entire page */
+}
+
+/* Style list group items */
+.list-group-item {
+  border: 1px solid #ddd; /* Set border */
+  margin-top: 10px; /* Add top margin */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+}
+
+/* Style pagination */
+.pagination {
+  margin-top: 20px; /* Add top margin */
+}
+
+/* Style individual page items in pagination */
+.pagination .page-item {
+  margin-right: 5px; /* Add right margin */
+}
+
+/* Style last page item in pagination */
+.pagination .page-item:last-child {
+  margin-right: 0; /* Remove right margin */
+}
+
+/* Style pagination links */
+.pagination .page-item a {
+  color: #007bff; /* Set link color */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Add padding */
+  border: 1px solid #007bff; /* Add border */
+  border-radius: 3px; /* Add border radius */
+}
+
+/* Style pagination link on hover */
+.pagination .page-item a:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: #ffffff; /* Change text color on hover */
+}
+
+/* Style loading text */
+.loading {
+  text-align: center; /* Center align text */
+  margin-top: 20px; /* Add top margin */
+  font-size: 1.5em; /* Set font size */
+  color: #555; /* Set text color */
+}
